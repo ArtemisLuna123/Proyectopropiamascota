@@ -25,8 +25,8 @@ public class ProyectomascotavirtualApplication {
 				// crear mascota nueva
 				System.out.println("");
 				System.out.println("Ingrese el nombre de la mascota");
-			   // String name = sc.next();
-			  //  MascotaVirtual mascota = new MascotaVirtual(nombre);
+			    String name = sc.next();
+			    MascotaVirtual mascota = new MascotaVirtual(nombre);
 			    do{
 				opcion = opcionesMascota();
 
